@@ -5,8 +5,8 @@ Procedure
 -	Use regular expressions to match credit card numbers of 13 to 19 digits.
 -	Any other input is flagged as invalid.
 2.	Parse and Validate in YACC:
--	Tokenize the input and pass valid card numbers for processing.
--	Implement the Luhn Algorithm:
+Tokenize the input and pass valid card numbers for processing.
+Implement the Luhn Algorithm:
   - Double every second digit from the right.
   - If doubling results in a two-digit number, add those digits together.
   -	 Sum all the processed digits.
