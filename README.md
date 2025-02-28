@@ -7,10 +7,10 @@ Procedure
 2.	Parse and Validate in YACC:
 -	Tokenize the input and pass valid card numbers for processing.
 -	Implement the Luhn Algorithm:
-  - 	Double every second digit from the right.
-  - 	If doubling results in a two-digit number, add those digits together.
-  -	  Sum all the processed digits.
-  -		A valid card number has a total sum divisible by 10.
+  - Double every second digit from the right.
+  - If doubling results in a two-digit number, add those digits together.
+  -	 Sum all the processed digits.
+  -	A valid card number has a total sum divisible by 10.
 3.	Error Handling:
 -	Invalid characters or formats are identified and flagged as errors.
 -	Card numbers failing the Luhn check are marked invalid.
